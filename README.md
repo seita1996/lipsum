@@ -20,10 +20,10 @@ git clone https://github.com/seita1996/lipsum
 cd lipsum
 
 # Install dependencies
-pnpm install
+npm install
 
 # Link the extension to Raycast
-pnpm dev
+npm run dev
 ```
 
 ~~Or install directly from the Raycast Extensions Store.~~
