@@ -24,6 +24,9 @@ npm install
 
 # Link the extension to Raycast
 npm run dev
+
+# Publish
+npm run publish
 ```
 
 ~~Or install directly from the Raycast Extensions Store.~~

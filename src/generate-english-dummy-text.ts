@@ -17,7 +17,7 @@ const generateEnglishDummyText = (numberOfChars: number): string => {
     "a", "an", "the", "to", "of", "in", "is", "it", "on", "at", "by", "as", "or", "and", "but",
     // Medium words (4-6 chars)
     "about", "after", "again", "along", "also", "asked", "away", "back", "been", "being", "below",
-    "between", "beyond", "both", "color", "could", "design", "each", "early", "ever", "every", 
+    "between", "beyond", "both", "color", "could", "design", "each", "early", "ever", "every",
     "field", "first", "found", "from", "great", "group", "have", "house", "idea", "image", "into",
     "know", "large", "later", "less", "light", "like", "line", "made", "make", "many", "might",
     "more", "most", "move", "much", "must", "name", "never", "next", "often", "only", "open",
@@ -42,25 +42,25 @@ const generateEnglishDummyText = (numberOfChars: number): string => {
   ];
 
   let result = "";
-  
+
   // Start with a capital letter
   let currentSentence = sentenceStarters[Math.floor(Math.random() * sentenceStarters.length)] + " ";
   let wordCount = 0;
-  
+
   while (result.length < numberOfChars) {
     // Add a word
     const word = words[Math.floor(Math.random() * words.length)];
     currentSentence += word;
     wordCount++;
-    
+
     // Determine if we should end the sentence
     const shouldEndSentence = (wordCount > 5 && Math.random() < 0.2) || wordCount > 15;
-    
+
     if (shouldEndSentence) {
       // End the sentence with a period, question mark, or exclamation point
       const endPunctuation = punctuation[Math.floor(Math.random() * 3)]; // Only ., ?, !
       currentSentence += endPunctuation + " ";
-      
+
       // Start a new sentence
       wordCount = 0;
       if (result.length + currentSentence.length <= numberOfChars) {
@@ -81,7 +81,7 @@ const generateEnglishDummyText = (numberOfChars: number): string => {
       } else {
         currentSentence += " ";
       }
-      
+
       // Check if we can fit the whole sentence so far
       if (result.length + currentSentence.length > numberOfChars) {
         const remainingChars = numberOfChars - result.length;
@@ -90,7 +90,7 @@ const generateEnglishDummyText = (numberOfChars: number): string => {
       }
     }
   }
-  
+
   // Trim to exact character count
   return result.substring(0, numberOfChars);
 }
