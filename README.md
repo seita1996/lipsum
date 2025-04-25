@@ -12,6 +12,10 @@ Easily generate text with a specified character count and copy it to your clipbo
 - Copy to clipboard
 - Streamline your design and development prototyping work
 
+## Screencast
+
+https://github.com/user-attachments/assets/44d32225-05a9-4084-905c-04456b2d8ded
+
 ## Development
 
 ```bash
