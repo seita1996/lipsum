@@ -32,8 +32,6 @@ npm run dev
 npm run publish
 ```
 
-~~Or install directly from the Raycast Extensions Store.~~
-
 ## Usage
 
 1. Launch Raycast (default: `⌘Space`)
