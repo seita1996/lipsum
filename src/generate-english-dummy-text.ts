@@ -142,7 +142,6 @@ const generateEnglishDummyText = (numberOfChars: number): string => {
     // Longer words (7+ chars)
     "another",
     "because",
-    "between",
     "building",
     "business",
     "children",

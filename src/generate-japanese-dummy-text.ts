@@ -158,7 +158,6 @@ const generateJapaneseDummyText = (numberOfChars: number): string => {
     "早い",
     "遅い",
     "速い",
-    "遅い",
     "熱い",
     "冷たい",
     "甘い",
