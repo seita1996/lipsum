@@ -39,12 +39,14 @@ npm run publish
 3. Select the language and character count for the text you want to generate
 4. The generated text will be automatically copied to your clipboard
 
+If language is not selected, the default language of the Extension settings will be selected.
+
 ## Options
 
 | Option | Description |
 |--------|-------------|
-| Language | Select Japanese or English |
-| Character Count | Specify the number of characters to generate |
+| Number of characters | Specify the number of characters to generate |
+| Select Language | Select Japanese or English |
 
 ## License
 

@@ -7,7 +7,7 @@ interface Preferences {
 }
 
 interface Arguments {
-  language: "ja" | "en";
+  language?: "ja" | "en";
   numberOfChars: string;
 }
 
