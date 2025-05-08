@@ -14,7 +14,7 @@ Easily generate text with a specified character count and copy it to your clipbo
 
 ## Screencast
 
-https://github.com/user-attachments/assets/44d32225-05a9-4084-905c-04456b2d8ded
+https://github.com/user-attachments/assets/c37bc4ad-02c0-4509-a75d-a8137551a003
 
 ## Development
 
